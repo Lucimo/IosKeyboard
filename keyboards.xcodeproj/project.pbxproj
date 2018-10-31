@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		338EBC382177532600CC6BF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EBC372177532600CC6BF7 /* AppDelegate.swift */; };
 		338EBC3A2177532600CC6BF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EBC392177532600CC6BF7 /* ViewController.swift */; };
-		338EBC3D2177532600CC6BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338EBC3B2177532600CC6BF7 /* Main.storyboard */; };
 		338EBC3F2177532800CC6BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338EBC3E2177532800CC6BF7 /* Assets.xcassets */; };
-		338EBC422177532800CC6BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338EBC402177532800CC6BF7 /* LaunchScreen.storyboard */; };
 		338EBC4D2177532900CC6BF7 /* keyboardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EBC4C2177532900CC6BF7 /* keyboardsTests.swift */; };
 		338EBC582177532900CC6BF7 /* keyboardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EBC572177532900CC6BF7 /* keyboardsUITests.swift */; };
+		338EBC74217756F300CC6BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338EBC72217756F300CC6BF7 /* LaunchScreen.storyboard */; };
+		338EBC772177578F00CC6BF7 /* SwitchCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EBC752177578F00CC6BF7 /* SwitchCells.swift */; };
+		338EBC782177578F00CC6BF7 /* SwitchCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338EBC762177578F00CC6BF7 /* SwitchCells.xib */; };
+		338EBC7B217757D000CC6BF7 /* LabelCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EBC79217757D000CC6BF7 /* LabelCells.swift */; };
+		338EBC7C217757D000CC6BF7 /* LabelCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338EBC7A217757D000CC6BF7 /* LabelCells.xib */; };
+		338EBC7F217763CE00CC6BF7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338EBC7D217763CE00CC6BF7 /* KeyboardViewController.swift */; };
+		338EBC80217763CE00CC6BF7 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338EBC7E217763CE00CC6BF7 /* KeyboardViewController.xib */; };
+		33994E4121807C2400E9B81C /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33994E4021807C2400E9B81C /* Labels.swift */; };
+		33994E432180862C00E9B81C /* LabelsN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33994E422180862C00E9B81C /* LabelsN.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +44,7 @@
 		338EBC342177532600CC6BF7 /* keyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338EBC372177532600CC6BF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338EBC392177532600CC6BF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		338EBC3C2177532600CC6BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		338EBC3E2177532800CC6BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		338EBC412177532800CC6BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338EBC432177532800CC6BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338EBC482177532900CC6BF7 /* keyboardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338EBC4C2177532900CC6BF7 /* keyboardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardsTests.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		338EBC532177532900CC6BF7 /* keyboardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338EBC572177532900CC6BF7 /* keyboardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardsUITests.swift; sourceTree = "<group>"; };
 		338EBC592177532900CC6BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338EBC73217756F300CC6BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../SwiftTest/SwiftTest/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		338EBC752177578F00CC6BF7 /* SwitchCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCells.swift; sourceTree = "<group>"; };
+		338EBC762177578F00CC6BF7 /* SwitchCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCells.xib; sourceTree = "<group>"; };
+		338EBC79217757D000CC6BF7 /* LabelCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCells.swift; sourceTree = "<group>"; };
+		338EBC7A217757D000CC6BF7 /* LabelCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelCells.xib; sourceTree = "<group>"; };
+		338EBC7D217763CE00CC6BF7 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		338EBC7E217763CE00CC6BF7 /* KeyboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
+		33994E4021807C2400E9B81C /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		33994E422180862C00E9B81C /* LabelsN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsN.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +111,13 @@
 		338EBC362177532600CC6BF7 /* keyboards */ = {
 			isa = PBXGroup;
 			children = (
+				33994E3A2180736100E9B81C /* contenidos */,
+				338EBC682177545400CC6BF7 /* Tabla */,
+				338EBC652177536E00CC6BF7 /* Cells */,
 				338EBC372177532600CC6BF7 /* AppDelegate.swift */,
 				338EBC392177532600CC6BF7 /* ViewController.swift */,
-				338EBC3B2177532600CC6BF7 /* Main.storyboard */,
 				338EBC3E2177532800CC6BF7 /* Assets.xcassets */,
-				338EBC402177532800CC6BF7 /* LaunchScreen.storyboard */,
+				338EBC72217756F300CC6BF7 /* LaunchScreen.storyboard */,
 				338EBC432177532800CC6BF7 /* Info.plist */,
 			);
 			path = keyboards;
@@ -123,6 +139,51 @@
 				338EBC592177532900CC6BF7 /* Info.plist */,
 			);
 			path = keyboardsUITests;
+			sourceTree = "<group>";
+		};
+		338EBC652177536E00CC6BF7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				338EBC67217753FC00CC6BF7 /* SwitchCells */,
+				338EBC662177537400CC6BF7 /* LabelCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		338EBC662177537400CC6BF7 /* LabelCells */ = {
+			isa = PBXGroup;
+			children = (
+				338EBC79217757D000CC6BF7 /* LabelCells.swift */,
+				338EBC7A217757D000CC6BF7 /* LabelCells.xib */,
+			);
+			path = LabelCells;
+			sourceTree = "<group>";
+		};
+		338EBC67217753FC00CC6BF7 /* SwitchCells */ = {
+			isa = PBXGroup;
+			children = (
+				338EBC752177578F00CC6BF7 /* SwitchCells.swift */,
+				338EBC762177578F00CC6BF7 /* SwitchCells.xib */,
+			);
+			path = SwitchCells;
+			sourceTree = "<group>";
+		};
+		338EBC682177545400CC6BF7 /* Tabla */ = {
+			isa = PBXGroup;
+			children = (
+				338EBC7D217763CE00CC6BF7 /* KeyboardViewController.swift */,
+				338EBC7E217763CE00CC6BF7 /* KeyboardViewController.xib */,
+			);
+			path = Tabla;
+			sourceTree = "<group>";
+		};
+		33994E3A2180736100E9B81C /* contenidos */ = {
+			isa = PBXGroup;
+			children = (
+				33994E4021807C2400E9B81C /* Labels.swift */,
+				33994E422180862C00E9B81C /* LabelsN.swift */,
+			);
+			path = contenidos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338EBC422177532800CC6BF7 /* LaunchScreen.storyboard in Resources */,
+				338EBC74217756F300CC6BF7 /* LaunchScreen.storyboard in Resources */,
+				338EBC80217763CE00CC6BF7 /* KeyboardViewController.xib in Resources */,
+				338EBC782177578F00CC6BF7 /* SwitchCells.xib in Resources */,
+				338EBC7C217757D000CC6BF7 /* LabelCells.xib in Resources */,
 				338EBC3F2177532800CC6BF7 /* Assets.xcassets in Resources */,
-				338EBC3D2177532600CC6BF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				338EBC3A2177532600CC6BF7 /* ViewController.swift in Sources */,
+				338EBC7F217763CE00CC6BF7 /* KeyboardViewController.swift in Sources */,
+				33994E4121807C2400E9B81C /* Labels.swift in Sources */,
+				338EBC772177578F00CC6BF7 /* SwitchCells.swift in Sources */,
+				33994E432180862C00E9B81C /* LabelsN.swift in Sources */,
+				338EBC7B217757D000CC6BF7 /* LabelCells.swift in Sources */,
 				338EBC382177532600CC6BF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,18 +361,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		338EBC3B2177532600CC6BF7 /* Main.storyboard */ = {
+		338EBC72217756F300CC6BF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				338EBC3C2177532600CC6BF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		338EBC402177532800CC6BF7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				338EBC412177532800CC6BF7 /* Base */,
+				338EBC73217756F300CC6BF7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -439,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lmao.keyboards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lmao.keyboards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
