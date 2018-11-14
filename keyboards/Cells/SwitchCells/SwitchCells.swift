@@ -25,5 +25,6 @@ class SwitchCells: UITableViewCell {
     
     @IBAction func clickSwitch(_ sender: Any) {
         print(lblSwitch?.text)
+        //jberwjbfhjerbfihberhb
     }
 }
